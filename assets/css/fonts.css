@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "valho";
+  src:url("../fonts/valho.eot");
+  src:url("../fonts/valho.eot?#iefix") format("embedded-opentype"),
+    /*url("../fonts/valho.woff") format("woff"),*/
+    url("../fonts/valho.ttf") format("truetype"),
+    url("../fonts/valho.svg#valho") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "valho" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "valho" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-curriculo:before {
+  content: "\61";
+}
+.icon-telephone:before {
+  content: "\62";
+}
+.icon-player:before {
+  content: "\63";
+}
+.icon-escudo:before {
+  content: "\64";
+}
+.icon-dinheiro:before {
+  content: "\65";
+}
+.icon-clock:before {
+  content: "\66";
+}
+.icon-calendario:before {
+  content: "\67";
+}
+.icon-carro:before {
+  content: "\68";
+}
+.icon-moedas:before {
+  content: "\69";
+}

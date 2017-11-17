@@ -1,0 +1,24 @@
+#fileupload .table>thead>tr>th, #fileupload .table>tbody>tr>th, #fileupload .table>tfoot>tr>th, #fileupload .table>thead>tr>td, #fileupload .table>tbody>tr>td, #fileupload .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+.files tr.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+.files tr.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+.files tr.ui-sortable-helper{
+    width: 100% !important;
+}
